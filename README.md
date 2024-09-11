@@ -1,21 +1,5 @@
-**位置编码**（Positional Encoding）是用于在序列模型中引入位置信息的一种技术，尤其是在Transformer模型中。常见的几种位置编码方法包括：
-
-1. **正弦和余弦位置编码**：
-   - 通过正弦和余弦函数生成的位置编码，能够为每个位置提供唯一的表示。公式如下：
-   $$
-   PE(pos, 2i) = \sin\left(\frac{pos}{10000^{\frac{2i}{d_{model}}}}\right)
-   $$
-   $$
-   PE(pos, 2i+1) = \cos\left(\frac{pos}{10000^{\frac{2i}{d_{model}}}}\right)
-   $$
-   其中，$pos$ 是位置，$i$ 是维度索引，$d_{model}$ 是模型的维度。
-
-2. **可学习的位置编码**：
-   - 通过训练学习得到的位置编码，通常是一个可训练的参数矩阵，直接与输入嵌入相加。
-
-3. **绝对位置编码**：
-   - 直接为每个位置分配一个唯一的向量，通常是固定的。
-
+1.什么是位置编码？
+![image](https://github.com/user-attachments/assets/9bf79355-20b6-467a-b704-d6e4a45219e5)
 4. **相对位置编码**：
    - 通过考虑元素之间的相对位置来编码，适用于处理长序列时的上下文信息。
 
@@ -23,4 +7,9 @@
    - 结合绝对和相对位置编码的优点，能够更好地捕捉序列中的位置信息。
 
 这些位置编码方法各有优缺点，选择合适的方法取决于具体的任务和模型架构。
-![image](https://github.com/user-attachments/assets/9bf79355-20b6-467a-b704-d6e4a45219e5)
+
+2. 介绍LoRA与QLoRA
+![image](https://github.com/user-attachments/assets/5548ae88-4bd8-407c-b8d8-5447f27b1827)
+![image](https://github.com/user-attachments/assets/bf312d36-6751-4054-ab13-c847ecd81085)
+
+
