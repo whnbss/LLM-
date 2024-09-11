@@ -12,4 +12,25 @@
 ![image](https://github.com/user-attachments/assets/5548ae88-4bd8-407c-b8d8-5447f27b1827)
 ![image](https://github.com/user-attachments/assets/bf312d36-6751-4054-ab13-c847ecd81085)
 
+3. RAG和微调的区别是什么？
+![image](https://github.com/user-attachments/assets/427e0ab2-948c-424f-a564-a866f75ec410)
+![image](https://github.com/user-attachments/assets/4181d600-60b1-4e8b-b064-20365b99a738)
+总结
+RAG 和 微调 是两种不同的策略，前者结合了检索和生成，适用于需要外部知识的任务；后者则是在特定任务上对预训练模型进行优化。选择哪种方法取决于具体的应用需求和任务特性。
+
+4. Tokenizer的实现方法及原理
+![image](https://github.com/user-attachments/assets/5e189ee4-ac92-4eaa-bc38-a135ccf68532)
+![image](https://github.com/user-attachments/assets/328f53ca-09af-41dd-8597-2e1af1ec7997)
+![image](https://github.com/user-attachments/assets/07b1f29e-881e-42f9-a610-dcf54080b618)
+
+5. 解释一下大模型的涌现能力？
+![image](https://github.com/user-attachments/assets/70bc1305-c8d1-4bec-bed6-53d40b700629)
+
+6. 解释langchainAgent的概念
+
+
+
+
+
+
 
