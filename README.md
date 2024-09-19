@@ -65,7 +65,31 @@ https://blog.csdn.net/Tink1995/article/details/105080033?ops_request_misc=%257B%
 总结：
 RLHF 通过结合人类反馈和强化学习，显著提升了模型的生成质量和适应性。其训练过程包括初始模型训练、反馈收集、奖励模型训练和强化学习微调，使用的数据包括大规模文本和人类反馈数据。
 
-10. 
+10. 简述一下FlashAttention的原理
+![image](https://github.com/user-attachments/assets/d5baff51-64fb-40bf-aef9-3adaf8bbb0b4)
+
+11. LLM预训练阶段有哪几个关键步骤？
+![image](https://github.com/user-attachments/assets/272dbf6c-98ff-4350-8616-5a98b96a0bad)
+
+12. LLaMA 模型为什么要用旋转位置编码？
+![image](https://github.com/user-attachments/assets/4823129c-c92b-451a-9ebf-ff4c19249ea4)
+
+13. DeepSpeed推理对算子融合做了哪些优化？
+![image](https://github.com/user-attachments/assets/6f0b6987-17de-4a78-b066-d1675f3f2d00)
+
+14. MHA，GQA，MQA三种注意力机制的区别是什么？
+![image](https://github.com/user-attachments/assets/9d77aec5-ee4f-4cf5-af86-d1a2862ae210)
+![image](https://github.com/user-attachments/assets/1f2a5206-9845-4a7f-b961-d2338c588bac)
+
+15. 为什么现在的大模型大多是 decoder-only 的架构？
+![image](https://github.com/user-attachments/assets/485f7385-242b-487c-be4c-2d2d291df7e5)
+
+16. 训练后量化（PTQ）和量化感知训练（QAT）与什么区别？
+![image](https://github.com/user-attachments/assets/64b8dba7-5b2f-4419-97db-0be6bf96f7c3)
+![image](https://github.com/user-attachments/assets/4837aca4-9b1a-4480-a42a-c707d036227f)
+
+
+
 
 
 
